@@ -23,6 +23,7 @@ class FullTimeEmolayee11 extends Employee11{
 }
 class PartTimeEmployee extends Employee11{
 	double hoursWorked,hourlyRate;
+	
 	PartTimeEmployee(String name,double hoursWorked,double hourlyRate){
 	super(name);	
 	this.hourlyRate=hourlyRate;
